@@ -10,7 +10,7 @@ const App = () => {
 
     return (
         <div className="App">
-          
+          <h4 style={{textAlign:"center",marginTop:"10px"}}> {Date() } </h4>
             <UserList   />
         </div>
     );
