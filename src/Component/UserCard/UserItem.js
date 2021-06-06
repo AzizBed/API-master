@@ -16,7 +16,7 @@ function UserItem({ info, el }) {
                 }}
             >
                 <Card.Body>
-                    <Card.Title>{info.name}</Card.Title>
+                    <Card.Title> <img src="https://www.freeiconspng.com/uploads/go-back--gallery-for--contact-person-icon-png-21.png" width="30px" alt="contact"/> {info.name}</Card.Title>
                     <Card.Text>
                         <b>Username :</b> {info.username}
                     </Card.Text>
